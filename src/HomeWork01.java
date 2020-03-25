@@ -1,8 +1,6 @@
-public class HomeWork01 {
-
-    public static double arifmeticMethod(double a, double b, double c, double d) {
-        return a * (b + c / d);
-    }
+public class HomeWork01 {    public static double arifmeticMethod(double a, double b, double c, double d) {
+    return a * (b + c / d);
+}
 
     public static boolean arifMethod2(int a, int b) {
         return a <= 20 && a >= 10 && b <= 20 && b >= 10;
@@ -51,4 +49,3 @@ public class HomeWork01 {
         ariMethod6(1204);
     }
 }
-
