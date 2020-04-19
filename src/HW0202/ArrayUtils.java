@@ -13,7 +13,7 @@ public class ArrayUtils {
                 try {
                     sum1 += (int) array[i][j];
                 } catch (ClassCastException e) {
-                    throw new ArrayDataException("Есть в массиве не int");
+                    throw new ArrayDataException("Есть в массиве не int [" + i + "][" + j+"]");
                 }
             }
         }
